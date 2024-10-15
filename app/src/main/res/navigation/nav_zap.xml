@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_zap"
+    app:startDestination="@id/FragListaZapatilla">
+
+    <fragment
+        android:id="@+id/FragListaZapatilla"
+        android:name="com.example.tilla.FragListaZapatilla"
+        android:label="fragment_lista_zapatilla"
+        tools:layout="@layout/fragment_lista_zapatilla">
+        <action
+            android:id="@+id/action_FragListaZapatilla_to_fragVistaZapatilla"
+            app:destination="@id/fragVistaZapatilla" />
+        <action
+            android:id="@+id/action_fragListaZapatilla_to_fragCarritoCompras"
+            app:destination="@id/fragCarritoCompras" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragVistaZapatilla"
+        android:name="com.example.tilla.FragVistaZapatilla"
+        android:label="fragment_vista_zapatilla"
+        tools:layout="@layout/fragment_vista_zapatilla" />
+
+    <fragment
+        android:id="@+id/fragCarritoCompras"
+        android:name="com.example.tilla.FragCarritoCompras"
+        android:label="fragment_carrito_compras"
+        tools:layout="@layout/fragment_carrito_compras" />
+</navigation>

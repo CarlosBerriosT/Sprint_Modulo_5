@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tilla</string>
+
+        <string name="precio_zapatilla">Precio: $%1$s</string>
+        <string name="Shoes_tap">Shoes Tap</string>
+        <string name="Agregar_carro">Agregar al carro</string>
+
+</resources>

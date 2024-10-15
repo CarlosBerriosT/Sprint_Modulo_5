@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="colorPrimary">#0466FA</color>
+    <color name="colorPrimaryDark">#007A7E</color>
+    <color name="fondoFragmenVista">#FF5722</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorBackground">#222831</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorButton">#9C27B0</color>
+    <color name="delete">#FF5252</color>
+</resources>
